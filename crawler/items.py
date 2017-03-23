@@ -10,4 +10,8 @@ import scrapy
 class HotListItem(scrapy.Item):
     # define the fields for your item here like:
     title = scrapy.Field()
-    link = scrapy.Field()
+    author = scrapy.Field()
+    post_link = scrapy.Field()
+    video_link = scrapy.Field()
+    gita_images = scrapy.Field()
+    created_at = scrapy.Field()
