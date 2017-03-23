@@ -1,5 +1,5 @@
 # crawler
 scrapy for http://www.daweijita.com/
 
-#cmd
+# cmd
 scrapy crawl daweijita
